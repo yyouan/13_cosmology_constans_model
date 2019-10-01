@@ -1,0 +1,27 @@
+#### first of all:configuration #############
+
+pip install tensorflow
+pip install keras
+
+##### first principle           #############
+1.Use python main for everything
+2.Revise parameter.py for revise parameter of every command
+
+
+VVVV example: VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+##### show ###################################
+PS C:\Users\lin\Desktop\ML_human> python main.py --show .
+1 text files found.
+data_csv_sorted.txt
+
+##### thinned ################################
+PS C:\Users\lin\Desktop\ML_human> python main.py --thinned .\haha.txt 3
+input file is " .\haha.txt "
+output file is " haha.3.thinned.txt "
+load...
+criteria is index: 11  mean: 125.01
+Performing thinning...
+Before bin,we have:  201475
+After bin, we have:  100526
+
